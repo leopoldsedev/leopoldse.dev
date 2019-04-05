@@ -16,7 +16,7 @@
    id="svg8"
    sodipodi:docname="leopoldseder-logo.svg"
    inkscape:version="0.92.4 (unknown)"
-   inkscape:export-filename="/home/christian/Desktop/leopoldseder-logo.png"
+   inkscape:export-filename="/home/christian/git/leopoldse.dev/assets/leopoldseder-logo.png"
    inkscape:export-xdpi="200"
    inkscape:export-ydpi="200">
   <defs
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="236.8301"
-     inkscape:cy="89.287109"
+     inkscape:cx="321.77093"
+     inkscape:cy="86.525333"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,5 +79,11 @@
            style="fill:#ffffff"
            id="flowSpan68">leopoldsede</flowSpan><flowSpan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:45.66050339px;font-family:'Gloria Hallelujah';-inkscape-font-specification:'Gloria Hallelujah, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#c83737"
-           id="flowSpan18">r</flowSpan></flowPara></flowRoot>  </g>
+           id="flowSpan18">r</flowSpan></flowPara></flowRoot>    <circle
+       style="fill:#c83737;fill-opacity:1;stroke-width:0.18981415"
+       id="path822"
+       cx="140.05846"
+       cy="115.63631"
+       r="1.25" />
+  </g>
 </svg>
