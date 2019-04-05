@@ -39,16 +39,17 @@ body {
 }
 
 .link-icon-container {
-	margin: 0 10px
+	margin: 0 10px;
+	padding: 10px;
 }
 
 .link-icon {
 	fill: white;
-	height: 100px;
-	width: 100px;
+	height: 64px;
+	width: 64px;
 }
 
-.link-icon:hover {
+.link-icon-container:hover svg {
 	fill: #c83737;
 }
 
