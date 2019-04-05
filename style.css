@@ -24,12 +24,12 @@ body {
 #intro-container {
 	margin-top: 100px;
 	color: white;
-	font-size: xx-large;
+	font-size: 4em;
 	font-family: 'Oswald', sans-serif;
 }
 
 #name {
-	border-bottom: 5px solid #c83737;
+	border-bottom: 10px solid #c83737;
 }
 
 #link-container {
@@ -45,8 +45,7 @@ body {
 
 .link-icon {
 	fill: white;
-	height: 64px;
-	width: 64px;
+	width: 15vw;
 }
 
 .link-icon-container:hover svg {
@@ -64,5 +63,14 @@ body {
 
 	#intro-container {
 		font-size: x-large;
+	}
+
+	.link-icon {
+		fill: white;
+		width: 5vw;
+	}
+
+	#name {
+		border-bottom: 5px solid #c83737;
 	}
 }
