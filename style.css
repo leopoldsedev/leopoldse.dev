@@ -1,0 +1,61 @@
+html {
+	margin: 0px;
+	height: 100%;
+}
+
+
+body {
+	background-color: #3d3d3d;
+	margin: 0px;
+	height: 100%;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+	height: 100%;
+	flex-direction: column;
+}
+
+#intro-container {
+	margin-top: 100px;
+	color: white;
+	font-size: x-large;
+	font-family: 'Oswald', sans-serif;
+}
+
+#name {
+	border-bottom: 5px solid #c83737;
+}
+
+#link-container {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+.link-icon-container {
+	margin: 0 10px
+}
+
+.link-icon {
+	fill: white;
+	height: 100px;
+	width: 100px;
+}
+
+.link-icon:hover {
+	fill: #c83737;
+}
+
+#logo {
+	width: 80%;
+}
+
+@media only screen and (min-width: 768px) {
+	#logo {
+		width: 50%;
+	}
+}
