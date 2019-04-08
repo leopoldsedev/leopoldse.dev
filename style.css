@@ -1,3 +1,7 @@
+:root {
+  --arrow-size: 20px;
+}
+
 html {
 	margin: 0px;
 	height: 100%;
@@ -64,9 +68,14 @@ body {
 
 #email-link {
 	color: white;
+	font-size: 3em;
 }
 
 @media only screen and (min-width: 1081px) {
+	:root {
+	  --arrow-size: 5px;
+	}
+
 	body {
 		width: 50%;
 	}
@@ -82,5 +91,9 @@ body {
 
 	#name {
 		border-bottom: 5px solid #c83737;
+	}
+
+	#email-link {
+		font-size: medium;
 	}
 }
