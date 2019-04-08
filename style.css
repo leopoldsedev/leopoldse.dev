@@ -26,6 +26,8 @@ body {
 
 #intro-container {
 	margin-top: 100px;
+	width: 100%;
+	text-align:center;
 	color: white;
 	font-size: 4em;
 	font-family: 'Quicksand', sans-serif;
