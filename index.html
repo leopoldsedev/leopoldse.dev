@@ -4,11 +4,74 @@
 	<meta charset="UTF-8">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="popper.css">
+
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 	<link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
 	<title>leopoldse.dev</title>
+
 </head>
+
+<script>
+	window.onload = init;
+
+
+	function init() {
+		email_popper = document.getElementById("email-popper");
+		email_button = document.getElementById("email-button");
+
+		email_button.addEventListener("click", show_email);
+	}
+
+	function show_email() {
+		if (email_popper.style.opacity == 0) {
+			email_popper.style.opacity = 1;
+
+			email_link = document.getElementById("email-link");
+			email_link.innerHTML = build_email();
+			email_link.href = "mailto:" + build_email();
+		} else {
+			email_popper.style.opacity = 0;
+		}
+
+		popper_options = {
+			placement: 'top'
+		};
+
+		var popper = new Popper(email_button, email_popper, popper_options);
+	}
+
+	function build_email() {
+		var result = "";
+		result += "c";
+		result += "h";
+		result += "r";
+		result += "i";
+		result += "s";
+		result += "t";
+		result += "i";
+		result += "a";
+		result += "n";
+		result += "@";
+		result += "l";
+		result += "e";
+		result += "o";
+		result += "p";
+		result += "o";
+		result += "l";
+		result += "d";
+		result += "s";
+		result += "e";
+		result += ".";
+		result += "d";
+		result += "e";
+		result += "v";
+		return result;
+	}
+</script>
 
 <body>
 
@@ -34,11 +97,16 @@
 				</svg>
 			</a>
 
-			<a class="link-icon-container" href="mailto:christian@leopoldse.dev" title="E-Mail">
+			<div id="email-button" class="link-icon-container" title="E-Mail">
 				<svg class="link-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 					<path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
 				</svg>
-			</a>
+			</div>
+		</div>
+
+		<div class="popper" id="email-popper">
+			<a id="email-link"> <!-- will be filled dynamically --> </a>
+			<div class="popper__arrow"> </div>
 		</div>
 	</div>
 

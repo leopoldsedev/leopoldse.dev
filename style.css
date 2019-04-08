@@ -41,6 +41,7 @@ body {
 .link-icon-container {
 	margin: 0 10px;
 	padding: 10px;
+	cursor: pointer;
 }
 
 .link-icon {
@@ -54,6 +55,15 @@ body {
 
 #logo {
 	width: 100%;
+}
+
+#email-popper {
+	opacity: 0;
+	transition: opacity 0.25s ease-in-out;
+}
+
+#email-link {
+	color: white;
 }
 
 @media only screen and (min-width: 1081px) {
