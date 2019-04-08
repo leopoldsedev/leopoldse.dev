@@ -14,7 +14,6 @@ body {
 
 .flex-container {
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	margin: 0px;
 	height: 100%;
@@ -55,6 +54,7 @@ body {
 
 #logo {
 	width: 100%;
+	margin-top: 15vh;
 }
 
 #email-popper {
