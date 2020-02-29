@@ -1,0 +1,70 @@
+baseurl = "http://www.example.com"
+title = "leopoldse.dev"
+languageCode = "en-us"
+defaultcontentlanguage = "en"
+theme = "coder"
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Christian Leopoldseder"
+    info = "Robotics • Computer Engineering • Embedded Systems"
+    description = "Christian Leopoldseder's personal website"
+    keywords = "blog,developer,personal"
+    #avatarurl = "images/avatar-cropped.jpg"
+	logourl = "images/leopoldseder-logo.png"
+
+    favicon_32 = "images/favicon.png"
+    favicon_16 = "images/favicon.png"
+
+    footercontent = ""
+
+    hidecredits = false
+    hidecopyright = false
+
+    rtl = false
+
+    math = true
+    custom_css = ["css/custom.css"]
+	colorscheme = "dark"
+	hideCopyright = true
+	hideCredits = true
+	disable_comments = true
+
+# Social links
+[[params.social]]
+    name = "GitHub"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/leopoldsedev"
+[[params.social]]
+    name = "GitLab"
+    icon = "fab fa-gitlab fa-2x"
+    weight = 2
+    url = "https://gitlab.com/leopoldsedev"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/christian-leopoldseder"
+[[params.social]]
+    name = "Email"
+    icon = "fas fa-envelope fa-2x"
+    weight = 4
+    url = "mailto:christian@leopoldse.dev"
+
+# Menu links
+#[[menu.main]]
+    #name = "Blog"
+    #weight = 1
+    #url  = "/posts/"
+#[[menu.main]]
+    #name = "About"
+    #weight = 2
+    #url = "/about/"
